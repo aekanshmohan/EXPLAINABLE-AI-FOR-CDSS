@@ -1,0 +1,27 @@
+cookie:
+  expiry_days: 1
+  key: auramed_clinical_signing_secret_key_2026
+  name: auramed_jwt_auth
+credentials:
+  usernames:
+    dr_patel:
+      email: apatel@hospital.org
+      name: Dr. A. Patel, MD (Cardiology)
+      password: $2b$12$NAUG4cE0mYteVhvZ1oCqP0XL5ZDgOnoin02e3kuyYf5R/7P7ffODm
+      role: cardiologist
+    dr_smith:
+      email: jsmith@hospital.org
+      name: Dr. J. Smith, MD (Radiology)
+      password: $2b$12$m1u9zSg1jl5nV7REyyYXwuDPST9baUMqiuHy8R3C.DXVlq17wqw2y
+      role: radiologist
+    eyedoc:
+      email: uniquecracks@gmail.com
+      first_name: Aekansh
+      last_name: Mohan
+      logged_in: false
+      password: $2b$12$MwhEQqHmvBCeRmC0r5tuuu74BPf7XmZRDFygMnjYks6jIc.SQ.ibG
+      password_hint: email
+      roles: null
+preauthorized:
+  emails:
+  - admin@hospital.org

@@ -1,0 +1,14 @@
+torch
+torchvision
+numpy
+pandas
+opencv-python
+matplotlib
+plotly
+streamlit
+fpdf2
+pillow
+torchxrayvision
+pydicom
+streamlit-authenticator
+pyyaml
