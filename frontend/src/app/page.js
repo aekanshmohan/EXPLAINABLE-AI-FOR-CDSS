@@ -6,7 +6,7 @@ import {
   UploadCloud, Printer, AlertCircle, Eye, ShieldCheck, History
 } from 'lucide-react';
 
-export default function AuraMedCDSS() {
+export default function XAICDSS() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [clinician, setClinician] = useState('');
   const [workflowStep, setWorkflowStep] = useState('intake');
@@ -279,7 +279,7 @@ export default function AuraMedCDSS() {
     return (
       <div className="flex h-screen bg-slate-950 items-center justify-center">
         <div className="bg-slate-900 p-8 rounded-xl border border-slate-800 shadow-2xl w-96">
-          <h1 className="text-2xl font-bold text-white mb-2 tracking-tight">AURAMED <span className="text-blue-500">CDSS</span></h1>
+          <h1 className="text-2xl font-bold text-white mb-2 tracking-tight">XAI <span className="text-blue-500">CDSS</span></h1>
           <form onSubmit={handleLogin} className="space-y-4">
             <input className="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 text-white" placeholder="Clinician ID" required />
             <input className="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 text-white" type="password" placeholder="Password" required />
@@ -296,7 +296,7 @@ export default function AuraMedCDSS() {
       {/* LEFT SIDEBAR */}
       <div className="w-64 bg-slate-950 border-r border-slate-800 flex flex-col z-20">
         <div className="p-5 border-b border-slate-800">
-          <h1 className="text-lg font-bold text-white flex items-center gap-2"><Activity className="w-5 h-5 text-blue-500" /> AURAMED CDSS</h1>
+          <h1 className="text-lg font-bold text-white flex items-center gap-2"><Activity className="w-5 h-5 text-blue-500" /> XAICDSS</h1>
         </div>
         <div className="flex-1 overflow-y-auto py-4">
           <div className="mb-6">
@@ -576,7 +576,7 @@ export default function AuraMedCDSS() {
                 <div className="bg-white text-slate-900 p-8 rounded-lg shadow-lg print-container">
                   <div className="border-b-2 border-slate-800 pb-4 mb-6 flex justify-between items-end">
                     <div>
-                      <h1 className="text-2xl font-bold text-slate-900">AURAMED CDSS</h1>
+                      <h1 className="text-2xl font-bold text-slate-900">XAICDSS</h1>
                       <p className="text-sm text-slate-500 uppercase tracking-widest font-bold mt-1">Clinical Audit Report with XAI Reasoning</p>
                     </div>
                     <div className="text-right text-sm">
@@ -647,7 +647,7 @@ export default function AuraMedCDSS() {
                         <p className="text-xs text-slate-500 mb-1">Digitally Signed By</p>
                         <p className="font-bold">{clinician}</p>
                       </div>
-                      <p className="text-xs text-slate-500">System generated via AuraMed CDSS</p>
+                      <p className="text-xs text-slate-500">System generated via XAICDSS</p>
                     </div>
                   </div>
                 </div>
